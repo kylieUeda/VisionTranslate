@@ -25,7 +25,7 @@ cv2.imshow("Detected", annotated)
 
 # Press q to quit
 if cv2.waitKey(1) & 0xFF == ord('q'):
-    break
+    exit()
 
 cap.release()
 cv2.destroyAllWindows()
